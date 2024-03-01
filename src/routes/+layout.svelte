@@ -5,5 +5,7 @@
 
 <div class="mx-auto px-8">
     <Nav />
-    <slot />
+    <div class="max-w-5xl justify-center mx-auto">
+        <slot />
+    </div>
 </div>
